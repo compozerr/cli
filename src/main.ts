@@ -1,6 +1,7 @@
 import { Arguments } from "./arguments.ts";
 
 function main(): void {
+
   const args = Arguments.get();
 
   // If help flag enabled, print help.
